@@ -1,0 +1,62 @@
+*{
+  margin: 0px;
+}
+
+#leftHalf {
+    background-repeat: no-repeat;
+    width: 30%;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+  }
+
+
+.foreground {
+    width: 10%;
+    position: absolute;
+    height: 10%;
+    left: 5%;
+    top: 10%;
+    z-index: 1;
+    
+  }
+
+.foreground2 {
+  width: 30%;
+    position: absolute;
+    height: 10%;
+    left: 16%;
+    top: 12%;
+    z-index: 1;
+  font-size: 50px;
+}
+
+.right_side{
+  padding-left: 33%;
+  padding-right: 15%;
+}
+
+#topRight{  
+  padding-top: 5%;
+}
+
+.rightForm{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.input{
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+}
+
+#buttons{
+  padding-top: 50px;
+}
+
+#Logo{
+  background-color: grey;
+}
